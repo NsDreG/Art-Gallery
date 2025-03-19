@@ -39,11 +39,11 @@
 }
 
 /* Individual backgrounds */
-.epoch-card:nth-child(1) { background-image: url('images/barocco.jpg'); }
-.epoch-card:nth-child(2) { background-image: url('images/classicism.jpg'); }
-.epoch-card:nth-child(3) { background-image: url('images/impressionism.jpg'); }
-.epoch-card:nth-child(4) { background-image: url('images/artnouveau.jpg'); }
-.epoch-card:nth-child(5) { background-image: url('images/bauhaus.jpg'); }
-.epoch-card:nth-child(6) { background-image: url('images/popart.jpg'); }
-.epoch-card:nth-child(7) { background-image: url('images/minimalism.jpg'); }
-.epoch-card:nth-child(8) { background-image: url('images/digital.jpg'); }
+.epoch-card:nth-child(1) { background-image: url('../images/barocco.jpg'); }
+.epoch-card:nth-child(2) { background-image: url('../images/classicism.jpg'); }
+.epoch-card:nth-child(3) { background-image: url('../images/impressionism.jpg'); }
+.epoch-card:nth-child(4) { background-image: url('../images/artnouveau.jpg'); }
+.epoch-card:nth-child(5) { background-image: url('../images/bauhaus.jpg'); }
+.epoch-card:nth-child(6) { background-image: url('../images/popart.jpg'); }
+.epoch-card:nth-child(7) { background-image: url('../images/minimalism.jpg'); }
+.epoch-card:nth-child(8) { background-image: url('../images/digital.jpg'); }
