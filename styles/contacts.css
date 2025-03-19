@@ -1,1 +1,46 @@
+/* Contacts Page Styles */
 
+.contacts-main {
+  padding: 60px 20px;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contacts-main h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contacts-main p {
+  max-width: 700px;
+  margin: 10px 0;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.contact-info a {
+  color: #0056b3;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: #003d7a;
+}
