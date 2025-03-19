@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Поп-арт — Галерея Исмаила и Арслана</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial Black', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff0080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .epoch-hero {
+      background-image: url('images/popart.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+
+    .epoch-hero h1 {
+      font-size: 3em;
+      background: rgba(255, 0, 128, 0.7);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .epoch-description, .epoch-gallery {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .epoch-gallery img {
+      width: 280px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 10px;
+      border: 4px dotted #ff0080;
+      transition: transform 0.3s, border 0.3s;
+    }
+
+    .epoch-gallery img:hover {
+      transform: rotate(-3deg) scale(1.05);
+      border: 4px solid #ffcc00;
+    }
+
+    footer {
+      background-color: #ff0080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h2>Галерея Исмаила и Арслана</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="epoch-hero">
+      <h1>Поп-арт</h1>
+    </section>
+
+    <section class="epoch-description">
+      <h2>Что такое Поп-арт?</h2>
+      <p>
+        Поп-арт — это яркое и динамичное направление искусства, возникшее в 1950-х годах. Оно вдохновлено массовой культурой, рекламой, комиксами и поп-иконами. В центре внимания — простые образы, яркие цвета и узнаваемые персонажи.
+      </p>
+    </section>
+
+    <section class="epoch-gallery">
+      <h2>Примеры работ</h2>
+      <div>
+        <img src="images/popart1.jpg" alt="Поп-арт 1" />
+        <img src="images/popart2.jpg" alt="Поп-арт 2" />
+        <img src="images/popart3.jpg" alt="Поп-арт 3" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Галерея Исмаила и Арслана</p>
+  </footer>
+
+</body>
+</html>
 
