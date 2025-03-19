@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Арт-нуво — Галерея Исмаила и Арслана</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .epoch-hero {
+      background-image: url('images/artnouveau.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+
+    .epoch-hero h1 {
+      font-size: 3em;
+    }
+
+    .epoch-description, .epoch-gallery {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .epoch-gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .epoch-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h2>Галерея Исмаила и Арслана</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="epoch-hero">
+      <h1>Эпоха Арт-нуво</h1>
+    </section>
+
+    <section class="epoch-description">
+      <h2>Что такое Арт-нуво?</h2>
+      <p>
+        Арт-нуво (или модерн) — стиль конца XIX века. Отличается плавными линиями, природными мотивами и декоративностью. В дизайне проявляется в орнаментах, изящных формах и сочетании искусства с функцией.
+      </p>
+    </section>
+
+    <section class="epoch-gallery">
+      <h2>Примеры работ</h2>
+      <div>
+        <img src="images/artnouveau1.jpg" alt="Арт-нуво 1" />
+        <img src="images/artnouveau2.jpg" alt="Арт-нуво 2" />
+        <img src="images/artnouveau3.jpg" alt="Арт-нуво 3" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Галерея Исмаила и Арслана</p>
+  </footer>
+
+</body>
+</html>
 
